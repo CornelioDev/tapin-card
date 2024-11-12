@@ -14,3 +14,12 @@ body {
 .btn-primary {
     @apply bg-primary-blue
 }
+
+footer nav {
+    & h3 {
+        @apply font-bold mb-3;
+    }
+    & ul {
+        @apply space-y-3
+    }
+}
