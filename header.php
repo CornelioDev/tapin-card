@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <title><?= bloginfo('title') ?> | <?= bloginfo('description') ?></title>
     <?php wp_head(); ?>
 </head>
+
 <body>
     <header class="container mx-auto flex items-center justify-between mb-12 lg:w-10/12">
         <figure class="lg:w-32">
-            <img src="<?= get_theme_file_uri( '/images/logo.png' ) ?>" alt="tapin-card logo">
+            <a href="<?= site_url() ?>"><img src="<?= get_theme_file_uri('/images/logo.png') ?>" alt="tapin-card logo"></a>
         </figure>
         <nav class="hidden lg:flex">
             <ul class="flex gap-4 items-center text-base font-medium">
