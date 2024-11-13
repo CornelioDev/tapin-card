@@ -5,16 +5,16 @@
     <?php wp_head(); ?>
 </head>
 <body>
-    <header class="container mx-auto flex items-center justify-between mb-8">
-        <figure class="w-32">
+    <header class="container mx-auto flex items-center justify-between mb-12 lg:w-10/12">
+        <figure class="lg:w-32">
             <img src="<?= get_theme_file_uri( '/images/logo.png' ) ?>" alt="tapin-card logo">
         </figure>
-        <nav class="flex">
+        <nav class="hidden lg:flex">
             <ul class="flex gap-4 items-center text-base font-medium">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Productos</a></li>
                 <li><a href="#">Ayuda Tapin</a></li>
             </ul>
-            <a href="#" class="btn btn-primary">Iniciar Sesión</a>
+            <a href="#" class="btn btn-sm btn-primary ml-4">Iniciar Sesión</a>
         </nav>
     </header>

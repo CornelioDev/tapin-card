@@ -1,8 +1,17 @@
 <?php get_header(); ?>
 
-<div class="text-center md:min-h-screen">
-    <h1 class="text-4xl font-bold text-gray-800 mb-4">Página en Construcción</h1>
-    <p class="text-lg text-gray-600">Estamos trabajando para traerte algo increíble. ¡Vuelve pronto!</p>
+<div class="container mx-auto lg:w-10/12">
+    <!-- Hero Section -->
+     <section class="flex flex-col gap-10 lg:grid lg:grid-cols-2">
+        <div class="hero-text space-y-10 mt-5 lg:text-left text-center">
+            <h1>intercambia información con solo un toque</h1>
+            <p>Nuestra tecnología NFC ofrece soluciones innovadoras en el intercambio de información.Tapin permite a los usuarios conectar y compartir datos con un simple toque de manera rápida y eficiente.</p>
+            <a href="#" class="btn btn-lg btn-primary">Conéctate</a>
+        </div>
+        <figure>
+            <img src="<?= get_theme_file_uri('images\lading-hero-banner.png') ?>" alt="Tapin Card Hero Banner">
+        </figure>
+     </section>
 </div>
 
 <?php get_footer(); ?>

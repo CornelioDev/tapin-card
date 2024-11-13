@@ -3,16 +3,30 @@
 @tailwind utilities;
 
 body {
-    font-family: 'Inter', sans-serif;
+    @apply font-sans;
 }
 
 /* Components */
 .btn {
-    @apply px-4 py-2 text-slate-50 rounded-full text-xs ml-4;
-    
+    @apply rounded-full inline-block;
+}
+.btn-sm {
+    @apply px-4 py-2 text-xs;
+}
+.btn-lg {
+    @apply text-4xl px-10 py-4 lg:text-base;
 }
 .btn-primary {
-    @apply bg-primary-blue
+    @apply bg-primary-blue text-slate-50;
+}
+
+.hero-text {
+    h1 {
+        @apply lg:text-4xl text-6xl font-extrabold text-primary-blue uppercase;
+    }
+    p {
+        @apply lg:text-lg text-5xl;
+    }
 }
 
 footer nav {

@@ -1,5 +1,5 @@
 <footer class="pb-8 pt-16 w-full bg-background-blue">
-    <div class="container mx-auto flex justify-between items-center mb-10">
+    <div class="container mx-auto flex justify-between items-center mb-10 md:w-10/12">
         <figure class="w-32">
             <img src="<?= get_theme_file_uri('images/logo.png') ?>" alt="Tapin Logo">
         </figure>

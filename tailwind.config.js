@@ -8,6 +8,9 @@ module.exports = {
             "secondary-blue": "#0F3776",
             "background-blue": "#0F37761F",
         },
+        fontFamily: {
+          sans: ["Inter", "sans-serif"],
+        },
       },
     },
   }
