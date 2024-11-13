@@ -2,8 +2,8 @@
 
 
 <!-- Hero Section -->
-<section class="custom-container flex flex-col gap-16 lg:gap-0 lg:grid lg:grid-cols-2">
-    <div class="hero-text space-y-12 text-center lg:space-y-4 mt-5 lg:text-left lg:w-5/6">
+<section class="custom-container flex flex-col gap-16 lg:gap-0 lg:grid lg:grid-cols-2 mt-20">
+    <div class="hero-text space-y-12 text-center lg:space-y-4 mt-5 lg:text-left lg:w-5/6 lg:place-self-center">
         <h1>intercambia información con solo un toque</h1>
         <p>Nuestra tecnología NFC ofrece soluciones innovadoras en el intercambio de información.Tapin permite a los usuarios conectar y compartir datos con un simple toque de manera rápida y eficiente.</p>
         <a href="#" class="btn btn-lg btn-primary">Conéctate</a>
