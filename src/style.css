@@ -7,6 +7,14 @@ body {
 }
 
 /* Components */
+.custom-container {
+    @apply mx-auto w-10/12
+}
+
+ul.custom-bullet {
+    @apply list-image-[url('../images/custom-list.png')] lg:pl-20 pl-10;
+}
+
 .btn {
     @apply rounded-full inline-block;
 }
