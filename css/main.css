@@ -649,10 +649,36 @@ video {
   gap: 1rem;
 }
 
+.gap-20 {
+  gap: 5rem;
+}
+
+.gap-16 {
+  gap: 4rem;
+}
+
 .space-y-10 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
+}
+
+.space-y-20 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(5rem * var(--tw-space-y-reverse));
+}
+
+.space-y-16 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(4rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(4rem * var(--tw-space-y-reverse));
+}
+
+.space-y-12 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(3rem * var(--tw-space-y-reverse));
 }
 
 .bg-background-blue {
@@ -719,8 +745,12 @@ body {
   line-height: 2.5rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .btn-lg {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     font-size: 1rem;
     line-height: 1.5rem;
   }
@@ -748,7 +778,7 @@ body {
     --tw-text-opacity: 1;
     color: rgb(0 88 143 / var(--tw-text-opacity));
   }
-  @media (min-width: 768px) {
+  @media (min-width: 1024px) {
     h1 {
       font-size: 2.25rem;
       line-height: 2.5rem;
@@ -758,7 +788,7 @@ body {
     font-size: 3rem;
     line-height: 1;
   }
-  @media (min-width: 768px) {
+  @media (min-width: 1024px) {
     p {
       font-size: 1.125rem;
       line-height: 1.75rem;
@@ -781,20 +811,8 @@ footer nav {
 }
 
 @media (min-width: 768px) {
-  .md\:grid {
-    display: grid;
-  }
-
   .md\:w-10\/12 {
     width: 83.333333%;
-  }
-
-  .md\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .md\:text-left {
-    text-align: left;
   }
 }
 
@@ -803,11 +821,37 @@ footer nav {
     display: flex;
   }
 
+  .lg\:grid {
+    display: grid;
+  }
+
   .lg\:w-10\/12 {
     width: 83.333333%;
   }
 
   .lg\:w-32 {
     width: 8rem;
+  }
+
+  .lg\:w-5\/6 {
+    width: 83.333333%;
+  }
+
+  .lg\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:gap-0 {
+    gap: 0px;
+  }
+
+  .lg\:space-y-4 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+  }
+
+  .lg\:text-left {
+    text-align: left;
   }
 }
