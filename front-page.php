@@ -12,6 +12,7 @@
         <img src="<?= get_theme_file_uri('images\lading-hero-banner.png') ?>" alt="Tapin Card Hero Banner">
     </figure>
 </section>
+
 <!-- Features Section -->
 <div class="bg-background-blue my-24 lg:py-10 py-28">
     <section class="custom-container lg:grid lg:grid-cols-2">
@@ -30,5 +31,28 @@
     </section>
 </div>
 
+<!-- Offer Section -->
+<section class="custom-container text-center space-y-12 m-24">
+    <div class="lg:w-4/6 mx-auto">
+        <h2>¿Cómo funciona?</h2>
+        <p>Al acercar <a href="#">#Tapin</a> a un smartphone o escanear el código QR, tendrás acceso a los datos automáticamente.</p>
+    </div>
+    <div>
+        <h2>Lo que tenemos para ti</h2>
+        <div class="flex flex-col lg:flex-row gap-4 mt-10">
+            <div class="lg:w-1/3 bg-background-blue rounded-xl mx-4 p-10">
+                <figure><img src="<?= get_theme_file_uri('images\tapin-card.png') ?>" alt=""></figure>
+                <h3 class="font-light text-black">Tarjeta de Presentación</h3>
+            </div>
+            <div class="lg:w-1/3 bg-background-blue rounded-xl mx-4 p-10">
+                <figure><img src="<?= get_theme_file_uri('images\tapin-card.png') ?>" alt=""></figure>
+                <h3 class="font-light text-black">Tarjeta de Presentación</h3>
+            </div>
+            <div class="lg:w-1/3 bg-background-blue rounded-xl mx-4 p-10">
+                <figure><img src="<?= get_theme_file_uri('images\tapin-card.png') ?>" alt=""></figure>
+                <h3 class="font-light text-black">Tarjeta de Presentación</h3>
+            </div>
+        </div>
+</section>
 
 <?php get_footer(); ?>

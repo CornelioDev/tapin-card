@@ -6,6 +6,40 @@ body {
     @apply font-sans;
 }
 
+* {
+    & h1,h2,h3,h4,h5,h6 {
+        @apply font-extrabold text-primary-blue;
+    }
+}
+
+h2 {
+    @apply text-6xl lg:text-4xl;
+}
+
+h3 {
+    @apply text-4xl lg:text-lg;
+}
+
+p {
+    @apply text-5xl lg:text-xl;
+}
+
+a {
+    @apply text-primary-blue;
+    &:hover {
+        @apply font-semibold;
+    }
+}
+
+footer nav {
+    & h3 {
+        @apply font-bold mb-3;
+    }
+    & ul {
+        @apply space-y-3
+    }
+}
+
 /* Components */
 .custom-container {
     @apply mx-auto w-10/12
@@ -29,19 +63,10 @@ ul.custom-bullet {
 }
 
 .hero-text {
-    h1 {
+    & h1 {
         @apply lg:text-4xl text-6xl font-extrabold text-primary-blue uppercase;
     }
-    p {
+    & p {
         @apply lg:text-lg text-5xl;
-    }
-}
-
-footer nav {
-    & h3 {
-        @apply font-bold mb-3;
-    }
-    & ul {
-        @apply space-y-3
     }
 }
