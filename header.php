@@ -7,7 +7,7 @@
 </head>
 
 <body>
-    <header class="container mx-auto flex items-center justify-between mb-12 lg:w-10/12">
+    <header class="custom-container mx-auto flex items-center justify-between mb-12 lg:w-10/12">
         <figure class="lg:w-32">
             <a href="<?= site_url() ?>"><img src="<?= get_theme_file_uri('/images/logo.png') ?>" alt="tapin-card logo"></a>
         </figure>
