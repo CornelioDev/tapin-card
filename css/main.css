@@ -593,17 +593,12 @@ video {
   margin-right: auto;
 }
 
-.my-8 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
 .mb-10 {
   margin-bottom: 2.5rem;
 }
 
-.mb-8 {
-  margin-bottom: 2rem;
+.mb-12 {
+  margin-bottom: 3rem;
 }
 
 .ml-4 {
@@ -612,14 +607,6 @@ video {
 
 .mt-5 {
   margin-top: 1.25rem;
-}
-
-.mt-8 {
-  margin-top: 2rem;
-}
-
-.mb-12 {
-  margin-bottom: 3rem;
 }
 
 .flex {
@@ -732,7 +719,7 @@ body {
   line-height: 2.5rem;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .btn-lg {
     font-size: 1rem;
     line-height: 1.5rem;
@@ -761,7 +748,7 @@ body {
     --tw-text-opacity: 1;
     color: rgb(0 88 143 / var(--tw-text-opacity));
   }
-  @media (min-width: 1024px) {
+  @media (min-width: 768px) {
     h1 {
       font-size: 2.25rem;
       line-height: 2.5rem;
@@ -771,7 +758,7 @@ body {
     font-size: 3rem;
     line-height: 1;
   }
-  @media (min-width: 1024px) {
+  @media (min-width: 768px) {
     p {
       font-size: 1.125rem;
       line-height: 1.75rem;
@@ -793,45 +780,21 @@ footer nav {
   }
 }
 
-@media (min-width: 1024px) {
-  .lg\:container {
-    width: 100%;
-  }
-
-  @media (min-width: 640px) {
-    .lg\:container {
-      max-width: 640px;
-    }
-  }
-
-  @media (min-width: 768px) {
-    .lg\:container {
-      max-width: 768px;
-    }
-  }
-
-  @media (min-width: 1024px) {
-    .lg\:container {
-      max-width: 1024px;
-    }
-  }
-
-  @media (min-width: 1280px) {
-    .lg\:container {
-      max-width: 1280px;
-    }
-  }
-
-  @media (min-width: 1536px) {
-    .lg\:container {
-      max-width: 1536px;
-    }
-  }
-}
-
 @media (min-width: 768px) {
+  .md\:grid {
+    display: grid;
+  }
+
   .md\:w-10\/12 {
     width: 83.333333%;
+  }
+
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:text-left {
+    text-align: left;
   }
 }
 
@@ -840,23 +803,11 @@ footer nav {
     display: flex;
   }
 
-  .lg\:grid {
-    display: grid;
-  }
-
   .lg\:w-10\/12 {
     width: 83.333333%;
   }
 
   .lg\:w-32 {
     width: 8rem;
-  }
-
-  .lg\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .lg\:text-left {
-    text-align: left;
   }
 }

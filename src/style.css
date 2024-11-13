@@ -14,7 +14,7 @@ body {
     @apply px-4 py-2 text-xs;
 }
 .btn-lg {
-    @apply text-4xl px-10 py-4 lg:text-base;
+    @apply text-4xl px-10 py-4 md:text-base;
 }
 .btn-primary {
     @apply bg-primary-blue text-slate-50;
@@ -22,10 +22,10 @@ body {
 
 .hero-text {
     h1 {
-        @apply lg:text-4xl text-6xl font-extrabold text-primary-blue uppercase;
+        @apply md:text-4xl text-6xl font-extrabold text-primary-blue uppercase;
     }
     p {
-        @apply lg:text-lg text-5xl;
+        @apply md:text-lg text-5xl;
     }
 }
 
