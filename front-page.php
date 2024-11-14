@@ -35,22 +35,22 @@
 <section class="custom-container text-center space-y-12 m-24">
     <div class="lg:w-4/6 mx-auto">
         <h2>¿Cómo funciona?</h2>
-        <p>Al acercar <a href="#">#Tapin</a> a un smartphone o escanear el código QR, tendrás acceso a los datos automáticamente.</p>
+        <p>Al acercar <a href="#" class="hover:underline">#Tapin</a> a un smartphone o escanear el código QR, tendrás acceso a los datos automáticamente.</p>
     </div>
     <div>
         <h2>Lo que tenemos para ti</h2>
-        <div class="flex flex-col lg:flex-row gap-4 mt-10">
-            <div class="lg:w-1/3 bg-background-blue rounded-xl mx-4 p-10">
-                <figure><img src="<?= get_theme_file_uri('images\tapin-card.png') ?>" alt=""></figure>
-                <h3 class="font-light text-black">Tarjeta de Presentación</h3>
+        <div class="flex flex-col lg:flex-row lg:gap-12 gap-10 mt-8">
+            <div class="landing-tag">
+                <figure><img src="<?= get_theme_file_uri('images\icon-card.png') ?>" alt=""></figure>
+                <h3>Tarjeta de Presentación</h3>
             </div>
-            <div class="lg:w-1/3 bg-background-blue rounded-xl mx-4 p-10">
-                <figure><img src="<?= get_theme_file_uri('images\tapin-card.png') ?>" alt=""></figure>
-                <h3 class="font-light text-black">Tarjeta de Presentación</h3>
+            <div class="landing-tag">
+                <figure><img src="<?= get_theme_file_uri('images\icon-tag-id.png') ?>" alt=""></figure>
+                <h3>Carnet Empresarial</h3>
             </div>
-            <div class="lg:w-1/3 bg-background-blue rounded-xl mx-4 p-10">
-                <figure><img src="<?= get_theme_file_uri('images\tapin-card.png') ?>" alt=""></figure>
-                <h3 class="font-light text-black">Tarjeta de Presentación</h3>
+            <div class="landing-tag">
+                <figure><img src="<?= get_theme_file_uri('images\nfc-tag-icon.png') ?>" alt=""></figure>
+                <h3>NFC Tag</h3>
             </div>
         </div>
 </section>
